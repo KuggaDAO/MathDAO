@@ -40,7 +40,6 @@ def process_line_post(line):
         body = None
         body_length = None
         math_ratio = None
-
     return dict(
         CreationDate=DateTime,
         Id=handle_none(re.search(r' Id="(\d+)" ', line)),
@@ -107,4 +106,31 @@ def process_line_votes(line):
         Id=handle_none(re.search(r' Id="(\d+)" ', line)),
         PostId=handle_none(re.search(' PostId="(\d+)" ', line)),
         VoteTypeId=handle_none(re.search(' VoteTypeId="(\d+)" ', line)),
+    )
+
+"""
+Extract comment data
+"""
+
+def extract_comments_data(row):
+    return dict(
+        Id=handle_none2(row.get('id')),
+        PostId=handle_none2(row.get('postid')),
+        CreationDate=row.get('creationdate'),
+        Score=row.get('score'),
+        Text=row.get('text'),
+        UserId=row.get('userid')
+    )
+
+"""
+Extract tag data
+"""
+
+def extract_tags_data(row):
+    return dict(
+        Id=handle_none2(row.get('id')),
+        ExcerptPostId=handle_none2(row.get('excerptpostid')),
+        TagName=row.get('tagname'),
+        WikiPostId=handle_none2(row.get('wikipostid')),
+        Count=handle_none2(row.get('count'))
     )

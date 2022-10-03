@@ -1,0 +1,119 @@
+,Id,PostId,CreationDate,Score,Text,UserId
+0,3,9.0,2010-07-20T19:26:09.357,8.0,"I like this so far, but maybe add a bit on uncountable to distinguish the difference.",16.0
+1,5,17.0,2010-07-20T19:27:07.983,1.0,"Oh, I figured as so. I remember learning about this a while ago with the graph as presentation. Thanks.",40.0
+2,8,17.0,2010-07-20T19:28:16.077,1.0,It is much better than an approximation: it gives the exact value for all $n$,55.0
+3,10,20.0,2010-07-20T19:29:17.900,3.0,"You've missed out many types of number: complex numbers, imaginary numbers, integers, rationals, hyper-reals, quaternions, etc.
+
+Good question though :)",35.0
+4,11,17.0,2010-07-20T19:32:12.010,1.0,"I see. That's the problem I notice in equations I was looking at before, the approximation kills the ""closeness"" to the number as the variable gets larger. I essentially see this as the solution, too bad I have to wait 7 minutes to accept yours as the answer.
+
+But, cheers, thanks.",40.0
+5,13,42.0,2010-07-20T19:36:22.330,1.0,As good an answer as any. It works that way because that's how the operation is defined :),35.0
+6,14,18.0,2010-07-20T19:37:22.450,1.0,Define 'flattening factor' please.,56.0
+7,15,35.0,2010-07-20T19:37:46.820,2.0,"A really good book on the subject was written by David Wallace Foster, [Everything and More: A Compact History of Infinity](http://www.amazon.co.uk/Everything-More-Compact-History-Infinity/dp/0753818825/ref=ntt_at_ep_dpt_10)",49.0
+8,16,40.0,2010-07-20T19:38:37.830,4.0,"Your definitions of rationals, irrationals, and reals are interdependent, of course. You're relying on the intuitive understanding of reals it seems, which is fair enough at this level...",56.0
+9,18,20.0,2010-07-20T19:40:13.363,0.0,I'm not sure what the tags are for this,54.0
+10,19,40.0,2010-07-20T19:40:56.577,0.0,"I know, I'm having trouble coming up with a zero-interdependency definition.",38.0
+11,20,17.0,2010-07-20T19:41:44.767,7.0,"By the way, if you want an approximation, you can neglect the second term, because $|1-\varphi|<1$, and get $F(n)={\varphi^n \over {\sqrt 5}}$ ; actually if you round that to the next integer you get the correct value.",55.0
+12,22,40.0,2010-07-20T19:42:52.813,10.0,Some definitions of natural numbers include 0.,72.0
+13,23,59.0,2010-07-20T19:44:58.843,10.0,There is no angle between two points...  Do you mean the angle between the points at the origin?  Maybe?,38.0
+14,24,18.0,2010-07-20T19:47:42.350,0.0,"""versine of the spheroid's angular eccentricity""",17.0
+15,25,51.0,2010-07-20T19:48:09.820,4.0,"I'm guessing that most fence posts are at the edge of a field, which makes this a far more interesting problem.",49.0
+16,26,3.0,2010-07-20T19:48:34.017,1.0,"Should be community wiki, since it's asking for a sorted list of resources?",28.0
+17,27,63.0,2010-07-20T19:49:03.297,1.0,"The actual process of using Benford's Law consists of checking the distribution of the numbers, if the numbers are tampered with they show a diffferent distribution. People inventing numbers do this in a biased way, different from how numbers show up in real life.",77.0
+18,28,40.0,2010-07-20T19:49:49.287,1.0,"@John: I don't think it's possible unless you construct the reals analytically, and that's fairly involved/beyond the level of the question. So yeah, don't blame you at all!",56.0
+19,30,59.0,2010-07-20T19:50:02.110,0.0,"Regarding the 3d space problem, you will basically need to measure the angle in spherical co-ordinates, so two angles. This is after adding in the twin requirements of an origin point and origin vector to measure angle from (as alluded to in the previous comment)",35.0
+20,31,51.0,2010-07-20T19:51:10.110,0.0,@FordBuchanan: Correct. I've updated the question to (hopefully) make that clear. Sorry for the confusion!,59.0
+21,33,42.0,2010-07-20T19:54:58.820,3.0,this is exactly the approach that I specified would not be helpful in my question =/,51.0
+22,34,66.0,2010-07-20T19:55:10.427,0.0,"I'm so sorry about that! I changed the formatting, it's a lot easier to read now! 
+
+Antisymmetric is treated by my book as, ""Points to, but cannot point back. There may be reflexive loops.""
+
+Asymmetric is the same, except there are no reflexive loops. 
+
+As you can see, these kinds of explanations are meaningless for me. Yours seems to have some tangent property I can understand! +1",44.0
+23,37,42.0,2010-07-20T19:56:42.483,0.0,"You did not specify that any approach wouldn't be helpful in your question. Read and learn, please. Also, it's generally not good etiquette to down-vote answers to your own questions.",56.0
+24,38,59.0,2010-07-20T19:57:45.990,0.0,"Yes, it's safe to assume a given origin (0,0).",24.0
+25,39,74.0,2010-07-20T19:57:49.080,0.0,"The equation is essentially symmetric. I don't see what the issue is, you seem to already have it reasoned out.",56.0
+26,41,31.0,2010-07-20T20:03:12.640,28.0,"-1. This is not a proof at all! Why is 1/3=0.333...? Seriously folks, for the private beta, let's try to maintain a little correctiness.",28.0
+27,43,64.0,2010-07-20T20:03:36.740,1.0,"Like myself, you assumed the post should be in the center of the field. I deleted my answer because of this mistake. The problem has been reformulated.",16.0
+28,45,80.0,2010-07-20T20:04:09.313,22.0,Please note that the multiplicative group of a field (obviously) does not contain the zero from the field in question as there is no inverse.,77.0
+29,49,40.0,2010-07-20T20:06:06.343,0.0,If you talk a little about limits you can get rid of that dependency :/,16.0
+30,50,78.0,2010-07-20T20:08:05.483,6.0,"A rotation matrix can be represented in 9 floats rather than 16. Also, in regards to computer graphics, smooth interpolation between two quaternions is easy compared to rotation matrices.",66.0
+31,52,80.0,2010-07-20T20:10:21.403,2.0,"Yes, this is a point that must be made!",16.0
+32,54,31.0,2010-07-20T20:12:45.330,6.0,@Scott: Sure it is. You can prove it easily by long division. This is about algorithms for mathematical methods really.,56.0
+33,57,18.0,2010-07-20T20:16:31.763,0.0,"do we want to allow/encourage questions that could easily be homework questions? I know we're not MathOverflow and we don't need research-level questions, but to me it still seems like there are better places for homework help (the line being much thinner here than it is on MO). (Rowland, I'm not looking to disparage this as a homework question, it's just asked a lot like one).",76.0
+34,58,31.0,2010-07-20T20:17:07.193,7.0,@Scott: Might help to stop whining and post what you think is the 'correct' answer then.,56.0
+35,59,88.0,2010-07-20T20:20:00.540,3.0,"A great example in my opinion is using it to solve a maze, breadth-first search from the starting position makes it particularly easy.
+
+From there you can ""add in"" more aspects of it once you get them into it, if you wanted to find the shortest route out of the maze you could extend it into a simple application of Djiksta's algorithm.",34.0
+36,60,18.0,2010-07-20T20:21:39.647,0.0,Please use http://meta.math.stackexchange.com/ to discuss what's approprate. Thanks! :),66.0
+37,61,81.0,2010-07-20T20:21:50.440,5.0,"""List of X"" questions generally [are frowned upon](http://meta.stackexchange.com/questions/57226/should-we-have-a-list-of-x-close-reason).",92.0
+38,63,18.0,2010-07-20T20:23:47.723,0.0,"@Katie I'd be flattered if you think I was of homework age - as it happens, this was inspired from a software engineering problem I was having, and having never been taught geometry beyond spherical geometry, I was struggling to get my head around the terms. For reference, I wanted this is to generate the bits I need to feed in to do a Helmert transformation.",17.0
+39,64,18.0,2010-07-20T20:24:07.550,1.0,"I think this particular case is useful and acceptable. I'm waiting to flag homework questions that have specific values in mind.
+
+And a great answer could go into some good detail here, not just provide a formula.",82.0
+40,66,18.0,2010-07-20T20:26:26.950,0.0,"@Katie also, I was being guided by the joint top most on-topic question at http://area51.stackexchange.com/proposals/3355?phase=definition which relates quite strongly, and is possibly easier to find an algorithm for",17.0
+41,67,97.0,2010-07-20T20:26:30.850,1.0,"You may want to take a look at python's http://code.google.com/p/mpmath/ or other libraries that advertise a ""multiple precision"" feature. Also, this may be a better question for stack overflow instead, since it's more of a computer science thing.",66.0
+42,72,101.0,2010-07-20T20:33:28.633,8.0,I think you're counting from the wrong end...,28.0
+43,73,101.0,2010-07-20T20:33:59.883,0.0,"This problem is actually small enough to use a BigNum implementation, like BigInteger in .NET 4.0.",38.0
+44,74,3.0,2010-07-20T20:35:15.760,0.0,"Yes, any question that asks users to create a list or poll should definitely be made community wiki. I converted this question.",69.0
+45,75,101.0,2010-07-20T20:37:03.587,0.0,"@Morrison: What do you mean? The smallest numbers always start at the right?
+
+@Gietzen: I think I'll try that with my next approach, thanks for the idea.",44.0
+46,76,4.0,2010-07-20T20:46:05.000,0.0,"Oh, wow, Tim Harford!  :)",85.0
+47,77,97.0,2010-07-20T20:49:34.353,0.0,"@Jon: Nope, I'm not interested in a library, there is no such library for the language I'm writing in (yet). I need the mathematical algorithm.",92.0
+48,78,42.0,2010-07-20T20:51:27.623,0.0,"Your non-trite answer is ""By definition, they produce mutually orthogonal vectors"".  I specifically stated that I was aware of the definition of cross product that explicitly stated that the result is mutually orthogonal.  This is not the definition I am asking about; I am asking about why the Matrix Determinant definition of the cross product (which has no mention of orthogonality) produces an orthogonal vector.
+
+Perhaps I should have clarified more that I was asking specifically about the matrix definition of the cross product, and not the definition that explicitly stated orthogonality",51.0
+49,79,81.0,2010-07-20T20:51:47.547,2.0,"Yes you're right. I'd like to quote Robert Cartaino (http://math.stackexchange.com/questions/3/list-of-interesting-math-podcasts) on this one: ""[...] *any question that asks users to create a list or poll should definitely be made community wiki* [...]"". I think it would interesting to compile a list of math blogs that do not require research-level math skills to be followed, since I personally find it quite difficult to find such Math blogs. In the end the community or a moderator has to decide if this question shall be closed; I for one do not hope that it gets closed :)",79.0
+50,80,107.0,2010-07-20T20:53:53.033,7.0,You might also want to look into http://en.wikipedia.org/wiki/1_%E2%88%92_2_%2B_3_%E2%88%92_4_%2B_%C2%B7_%C2%B7_%C2%B7,51.0
+51,82,112.0,2010-07-20T20:56:12.340,0.0,"∇ is not gradient. ∇ is the [nabla operator](http://en.wikipedia.org/wiki/Nabla_symbol), which has no meaning in and of itself.",92.0
+52,86,113.0,2010-07-20T20:59:30.320,1.0,"Community wiki, as there is no one answer?",49.0
+53,87,113.0,2010-07-20T21:00:21.830,0.0,"Ah, I thought I checked it when I posted. Edited.",66.0
+54,88,113.0,2010-07-20T21:04:44.067,0.0,"Perhaps you should also request the answers to include why the particular post is a fallacy. In this case, line 5 is wrong since a=b implies a-b = 0, and so you can't divide out (a-b)",50.0
+55,89,101.0,2010-07-20T21:05:45.203,0.0,"""First"" is ambiguous. Ten leftmost or ten rightmost? I believe the people at Project Euler want the former.",92.0
+56,91,110.0,2010-07-20T21:10:52.163,0.0,"I did my best to avoid `0.00000...`, but this made the calculations not as strikingly simple as I'd have liked to.",92.0
+57,92,114.0,2010-07-20T21:12:41.103,3.0,"It depends on what you mean by paradox. Traditionally, the use has allowed for using 'paradox' to refer to any severe failure of intuition (and I think 'the number of balls in the box depends on how you numbered them' certainly qualifies!)",73.0
+58,94,31.0,2010-07-20T21:15:00.573,15.0,"Just to nitpick, there **is** a bijection between the set of decimal expansions and reals because they are sets with the same cardinality. It's just that the natural map taking expansions to real numbers isn't injective.",31.0
+59,95,3.0,2010-07-20T21:15:08.763,2.0,Why is this tagged off topic? Surely if it needs this tag then it should be closed...,108.0
+60,97,122.0,2010-07-20T21:15:59.920,6.0,"In the same way, it's often convenient for a variety of reasons *not* to consider hte unit ideal as prime (e.g. for unique factorization in Dedekind domains).",536.0
+61,98,31.0,2010-07-20T21:18:19.657,0.0,"@Simon: Good clarification point, you're absolutely right.",56.0
+62,99,113.0,2010-07-20T21:18:47.503,1.0,"are you looking for more ""classic fake proofs"" of this type, or something along the lines of ""common misconceptions in mathematics""?",76.0
+63,100,74.0,2010-07-20T21:21:17.863,2.0,Use whatever method you used to prove sum of two Gaussian is a Gaussian to prove Z = Y-X.,96.0
+64,101,127.0,2010-07-20T21:21:38.347,0.0,"Sure, this just about tells you what an introductory course to calculus might involve, but is far to specific to describe the subject as a whole.",56.0
+65,102,124.0,2010-07-20T21:22:28.583,5.0,See [Catenary](http://en.wikipedia.org/wiki/Catenary) for more analysis on the curve that is mentioned in this answer.,51.0
+66,103,113.0,2010-07-20T21:25:46.383,0.0,"@Katie Good point, I just updated the title.",66.0
+67,107,135.0,2010-07-20T21:38:41.490,38.0,0^0 shouldn't be undefined. It should be 1.,30.0
+68,108,139.0,2010-07-20T21:40:43.317,6.0,"Actually, the exact side length is the square root of 50, which is irrational.",536.0
+69,109,135.0,2010-07-20T21:40:59.853,0.0,"0^0 is 1. http://www.wolframalpha.com/input/?i=lim+x^x+as+x-%3E0.  Not because wolframalpha says so, but the proof is there for you to see.",71.0
+70,110,136.0,2010-07-20T21:42:05.720,13.0,Could you send it to a social science journal instead? :-),31.0
+71,111,136.0,2010-07-20T21:42:45.487,1.0,You can also reverse your observation (which as Dan explains is very easy to show) to get the slightly harder result that 1+3+5+...+(2n-1) = n^2.,8.0
+72,112,42.0,2010-07-20T21:43:38.903,0.0,"@justin-l, Effectively you are asking why the algebraic definition produces the same answer as the geometric definition.",113.0
+73,114,42.0,2010-07-20T21:46:46.657,0.0,"Actually, yes =)  Thank you for clarifying; that's actually a lot clearer than my question was.",51.0
+74,115,146.0,2010-07-20T21:47:02.990,3.0,Really? Why does that work?,73.0
+75,116,128.0,2010-07-20T21:47:26.327,1.0,"Correct me if I'm wrong, but it seems like this would be better suited for MathOverflow.net?",82.0
+76,117,135.0,2010-07-20T21:48:14.737,15.0,"@Coltin: Wolframalpha doesn't say that `0^0` is 1. If you enter `0^0` it says ""indeterminate"". It only says that `lim x^x as x->0` is 1, which is perfectly true, but entirely besides the point.",11.0
+77,119,100.0,2010-07-20T21:55:10.897,2.0,I've been using NRich with my sons and I've found it excellent.,113.0
+78,120,146.0,2010-07-20T21:59:36.760,0.0,This leaves me with a square with area (7-7 sqrt(2))^2; am I doing this right?,51.0
+79,121,78.0,2010-07-20T22:09:12.057,0.0,"true, only 9 are needed for a rotation matrix. And point two makes the point about interpolation :)",35.0
+80,122,146.0,2010-07-20T22:11:04.770,5.0,"It works because the diagonal of the inner square is equal to the side of the outer square. The ratio of the diagonal to the side of any square is root 2, so the ratio of the diagonals of the two squares is root 2, so the ratio of the areas is 2.",113.0
+81,123,141.0,2010-07-20T22:12:04.893,0.0,And now you just need to expand your explanation to include x^i and then explain why e^(i*pi) + 1 = 0 :),35.0
+82,125,141.0,2010-07-20T22:14:16.747,3.0,But that's just the definition of pi of course...,8.0
+83,126,128.0,2010-07-20T22:17:26.980,0.0,"Nick, I don't think it's research-level. Since many people committing to this site expressed a desire for an MO-like site that would admit questions in pure math at, say, an undergraduate level, I think it should stay here.",76.0
+84,129,113.0,2010-07-20T22:18:36.230,2.0,"The example given isn't fallacious or fake, it is perfectly acceptable apart from relying on an undefined operation (division by 0). It is however a great example of *why* division by 0 is left undefined, namely that it makes the arithmetic system inconsistent and therefore you can prove anything (such as 1 = 2)",35.0
+85,132,155.0,2010-07-20T22:25:41.387,28.0,"Fwiw, I think this question would also be ok at MO.",8.0
+86,135,146.0,2010-07-20T22:29:53.880,0.0,You lost me at that last step. What does the ratio of the diagonals have to do with anything?,73.0
+87,137,155.0,2010-07-20T22:33:20.397,1.0,"It sounds like it would be part of Analysis, which deals with things like differentiability, continuous functions and the like. It's also worth noting that new operations can actually change what is representable in a closed form (for example, before logs were invented/discovered then functions involving them obviously couldn't be formulated in a closed form).",35.0
+88,139,155.0,2010-07-20T22:37:31.797,5.0,"workmad3 - new operations do, of course, change what is representable in a closed form. For example, if we invent notation for a function whose value at t is \int_0^t x^x dx, many more things become representable! But for various mathematical, historical, and computational reasons, it is of interest what functions are expressible in terms of elementary functions as  they've already been defined - field operations (arithmetic), log, exp, and compositions of these.",76.0
+89,141,159.0,2010-07-20T22:39:25.650,3.0,"the ``granularness"" of quantum mechanics has nothing to do with putting the real numbers on shakey ground-- quite the contrary, quantum mechanics relies heavily on the real numbers.  For example, in the standard versions of quantum mechanics the position of most particles can take any real value (not some discrete set of points).",9.0
+90,142,146.0,2010-07-20T22:44:54.377,0.0,"Since the one-dimensional ""size"" of the square is related to its two-dimensional size (area) as a square root, and the diagonal is one-dimensional, the ratio between the diagonals of two squares is the square root of the ratio of their areas. Hence, if the ratio of diagonals is root 2, then the ratio of their areas is 2, i.e. one is twice the size of the other.",67.0
+91,143,122.0,2010-07-20T22:48:22.113,3.0,"That's a good way of looking at it, but I wouldn't call it a proof. We simply define 1 as a prime, there is no proof of that fact; it's a definition.",122.0
+92,145,157.0,2010-07-20T22:51:52.933,0.0,"I know that complex numbers are a useful abstraction, and in my own mind I'm quite happy that they ""exist"", in the same that math in general 'exists"". However, I tagged the question as ""teaching"" because I want to hear other people's ideas about how to help non-technicians grasp the wonder of complex numbers. I think your answer is trite and unhelpful so I'm downvoting it.",113.0
+93,147,122.0,2010-07-20T22:53:33.993,1.0,"@Eden Maor -- you are right, proof is definitely **not** the right word to use there.  I'll make a change.",51.0
+94,148,167.0,2010-07-20T22:54:26.660,0.0,"When I've used this explanation with people, they want to know why you can't just use normal geometry, which doesn't involve the concept of a negative square root.",113.0
+95,149,159.0,2010-07-20T22:54:51.650,0.0,"the maths used to calculate results in quantum mechanics may make use of reals, but that's really due to convention and the fact that we (humans) have great difficulty with the hugeness of numbers that would be used if we calculated things in plank lengths and plank masses. It's a convenient abstraction rather than an affirmation of any 'existence' of real numbers.",35.0
+96,150,159.0,2010-07-20T22:57:33.923,1.0,"I think electrical circuit theory is a more approachable use of complex numbers, with the imaginary component being used to express phase. Most people think quantum mechanics is pretty weird and have trouble believing it (as did Einstein, so they're in good company) so using quantum mechanics as a justification further convinces them that complex numbers are merely nonsense.",113.0
+97,151,168.0,2010-07-20T22:57:44.487,168.0,"I believe the historical context was in solving cubic equations.  If you try to solve a cubic equation that has a real solution, sometimes you have to use complex numbers in intermediate steps in the calculation.  But then when you get to the end you find a real number that really is a solution to a real cubic equation!",8.0
+98,155,155.0,2010-07-20T23:02:21.623,66.0,the branch of mathematics that studies this sort of thing is differential galois theory.,9.0
+99,157,35.0,2010-07-20T23:03:05.240,2.0,David Foster Wallace. (RIP :-( ),120.0
