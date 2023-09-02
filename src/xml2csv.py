@@ -1,6 +1,7 @@
 import pandas as pd
 import re
 from bs4 import BeautifulSoup
+import html
 
 """
 Extract Post Data
@@ -40,10 +41,20 @@ def process_line_post(line):
         body = None
         body_length = None
         math_ratio = None
+    
+    Tags_match = re.search(' Tags="(.*?)" ', line)
+    if Tags_match is not None:
+        Tags = Tags_match.group(1)
+        decoded_tags = html.unescape(Tags)
+        tags = re.findall('<(.*?)>', decoded_tags)
+    else:
+        tags = None
+
     return dict(
         CreationDate=DateTime,
         Id=handle_none(re.search(r' Id="(\d+)" ', line)),
         PostTypeId=handle_none(re.search(' PostTypeId="(\d+)" ', line)),
+        Tags = tags,
         Score=handle_none(re.search(' Score="(\d+)" ', line)),
         OwnerUserId=handle_none(re.search(' OwnerUserId="(\d+)" ', line)),
         ParentId=handle_none(re.search(' ParentId="(\d+)" ', line)),
@@ -55,7 +66,6 @@ def process_line_post(line):
         PostLength=body_length,
         MathRatio=math_ratio,
     )
-
 
 """
 Extract User Data
